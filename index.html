@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title>Casa de Chá BioChá</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <style>
+        .carousel-inner .carousel-item img {
+            width: 100%;
+            height: 50vh;
+        }
+
+        .row {
+            margin-top: 5em;
+        }
+
+        .col .card img{
+            width: 100%;
+            height: 40vh;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Carousel de imagens -->
+    <main class="container py-5">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="mainSlide">
+
+            <div class="carousel-indicators">
+                <button data-bs-target="#mainSlide" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mainSlide" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mainSlide" data-bs-slide-to="2"></button>
+                <button data-bs-target="#mainSlide" data-bs-slide-to="3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./img/cháLaranja01.webp">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Chá de Laranja <strong>R$5,50</strong></h3>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./img/cháHortelã02.jpg">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Chá de Hortelã <strong>R$5,99</strong></h3>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./img/cháErvaDoce03.jpg">
+
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Chá detox <strong>R$7,99</strong> </h3>
+
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./img/cháCravoDaIndia04.webp">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Chá de cravo da india <strong>R$5,50</strong></h3>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <!-- button.carousel-control-prev[data-bs-target="#ads"data-bs-slide="prev"]>span.carousel-control-prev-icon -->
+                <button class="carousel-control-prev" data-bs-target="#mainSlide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mainSlide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- layout com grid -->
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/Chá de salsinha detox.jpeg" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">chá desintoxicante</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de salsinha</h5>
+                        <p class="card-text">
+                            Chá de salsinha A salsa, também conhecida como salsinha e salsa-hortense, é caracterizada
+                            por ser um diurético natural e um purificador suave, proporcionando a desintoxicação do
+                            organismo e a diminuição de distúrbios gastrointestinais.
+
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/chá de Camomila.jpg" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">chá calmante para ansiedade</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de Camomila</h5>
+                        <p class="card-text">
+                            A camomila é uma planta versátil que tem benefícios para a saúde, o corpo, a pele e os
+                            cabelos. O chá de camomila ajuda a acalmar e diminuir a ansiedade, e tem ainda ações
+                            anti-inflamatórias e anti-alérgicas.
+                            É um dos preferidos na hora de dormir, e pode inclusive ser um excelente aliado na prevenção
+                            do stress provocado pela insónia.
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/Chá de capim-limão.jpg?random=3" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">problemas estomacais?</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de capim-limão</h5>
+                        <p class="card-text">
+                            O chá de capim limão serve para auxiliar a digestão e é muito usado para curar problemas no
+                            estômago, além de tratar inchaços, depressão, agitação, insônia, infecções da pele, dor
+                            muscular, tosse, asma, catarro, dor de cabeça, febre, transpiração,
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/Chá de salsinha detox.jpeg" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">chá desintoxicante</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de salsinha</h5>
+                        <p class="card-text">
+                            Chá de salsinha A salsa, também conhecida como salsinha e salsa-hortense, é caracterizada
+                            por ser um diurético natural e um purificador suave, proporcionando a desintoxicação do
+                            organismo e a diminuição de distúrbios gastrointestinais.
+
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/chá de Camomila.jpg" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">chá calmante para ansiedade</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de Camomila</h5>
+                        <p class="card-text">
+                            A camomila é uma planta versátil que tem benefícios para a saúde, o corpo, a pele e os
+                            cabelos. O chá de camomila ajuda a acalmar e diminuir a ansiedade, e tem ainda ações
+                            anti-inflamatórias e anti-alérgicas.
+                            É um dos preferidos na hora de dormir, e pode inclusive ser um excelente aliado na prevenção
+                            do stress provocado pela insónia.
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <!-- img.card-img-top[src="https://picsum.photos/400/400"] -->
+                    <img src="./img/Chá de capim-limão.jpg?random=3" alt="" class="card-img-top">
+                    <!-- h4.card-header{Cabeçalho} -->
+                    <h4 class="card-header">problemas estomacais?</h4>
+
+                    <div class="card-body">
+                        <h5 class="card-title">Chá de capim-limão</h5>
+                        <p class="card-text">
+                            O chá de capim limão serve para auxiliar a digestão e é muito usado para curar problemas no
+                            estômago, além de tratar inchaços, depressão, agitação, insônia, infecções da pele, dor
+                            muscular, tosse, asma, catarro, dor de cabeça, febre, transpiração,
+                        </p>
+                        <strong>R$10,00</strong>
+                    </div>
+                    <!-- .card-footer{Rodapé} -->
+                    <button class="btn btn-info">Fazer o Pedido</button>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            &p
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
